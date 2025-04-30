@@ -1,0 +1,722 @@
+.img-sfondo-1{
+    background:url(../20210326151807-arcipelago-toscano-portoferraio-isola-d-elba-toscana-gettyimages-926108362.jpg) ;
+;
+background-size: cover;
+background-repeat: no-repeat;
+min-height: 100vh;
+overflow: hidden;
+position: relative;
+
+}
+
+.img-sfondo-1::before {
+    content: "";
+    position: absolute;     /* patina per inscurire*/
+    top: 0; left: 0;
+    width: 100%; height: 100vh;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 1;
+}
+
+
+
+
+
+.img-sfondo-1 > * {
+    position: relative;
+    z-index: 2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.txt-white{
+    color: white;
+}
+
+.bg-purple{
+    background-color: #533759;
+}
+
+.centro{
+    text-align: center;
+
+}
+
+header p{
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.parchi{
+    background-color: #533759;
+   
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colonne */
+    gap: 20px; /* spazio tra le immagini */
+    justify-items: center; /* centra le immagini nella cella */
+    align-items: center; /* centra verticalmente */
+    text-align: center;
+    padding-top: 100px;
+    
+    
+
+}
+.parchi p{
+    padding: 30px;
+}
+.parchi img{
+    width: 100%;
+    max-width: 300px;
+    }
+
+    .parchi a{
+        text-decoration: none;
+    }
+
+   
+
+    .sopra h1.titolo {
+        font-size: 48px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 100px;
+        text-align: left;
+    }
+
+    .sopra h3 {
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        margin-top: 30px;
+    }
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    position: relative;
+    z-index: 2;
+    padding-top: 80px;
+
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.home{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.sopra {
+    position: absolute;
+    top: 30%;
+    padding-left: 9%;
+    transform: translate(0, -30%);
+    text-align: left;
+    z-index: 2;
+padding-top: 100px;
+line-height: 250%;
+}
+
+    .titolo {
+        font-size: 50px;
+        margin-bottom: 20px;
+    line-height: 150% ;}
+
+        .sopra h3 {
+            font-size: 22px;
+            margin-bottom: 10px;}
+
+            .button {
+                width: 150px;
+                margin-right: 20px;
+                cursor: pointer;
+                margin-top: 30px;
+                z-index: 2;
+            }
+
+            .button, .b-parchi, .b-attiv {
+                position: relative;
+                z-index: 2;
+              }
+
+
+
+                .top-bar {
+                    background-color: #533759;
+                    color: white;
+                    text-align: center;
+                    padding: 10px 20px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 18px;
+                    width: 100%; /* usa vw per coprire tutta la viewport */
+                    position: absolute; /* posizionata sopra tutto */
+                    top: 0;
+                    left: 0;
+                    z-index: 1000; /* molto sopra */}
+
+                    header h2 {
+                        margin-right: auto; /* spinge il titolo a sinistra */
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-size: 24px;
+                    }
+
+                    .cerca, .burger {
+                        width: 30px;
+                        height: 30px;
+                    }
+                    .nav{
+                        display: flex;
+                         align-items: center;
+                         gap: 20px; /* spazio tra cerca e hamburger */
+                    }
+
+
+
+
+
+                    
+
+
+
+
+
+                    .img-sfondo-2 {
+                        background-image: url(../img/pexels-stanswinnen-6465964.jpg);
+                        height: 100vh; /* altezza precisa */
+                        width: 100vw;
+                        background-size: cover; /* Copre tutta la sezione */
+                        background-position: center; /* Centra l'immagine */
+                        background-repeat: no-repeat; /* Non ripetere */
+                        display: flex;
+                        flex-direction: column; /* organizza il contenuto verticalmente */
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                        color: white;
+                    }
+                    
+                    .img-sfondo-2 h1 {
+                        font-size: 48px;
+                        margin-bottom: 30px;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    
+                    .img-sfondo-2 h3 {
+                        font-size: 24px;
+                        margin: 10px 0;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+
+
+
+
+                   
+                    
+
+
+                    
+                    
+                    
+                    .contenuto-esperienze {
+                        
+                        
+                        text-align: left;
+                        
+                    }
+                    
+                    .contenuto-esperienze h1 {
+                        font-size: 48px;
+                        margin-bottom: 20px;
+                        text-align: left;
+                        padding-right: 750px;
+                    }
+                    
+                    .contenuto-esperienze .descrizione {
+                        font-size: 24px;
+                        margin-bottom: 50px;
+                        text-align: left;
+                        padding-right: 500px;
+                        margin-top: 50px;
+                    }
+
+                    .contenuto-esperienze a{
+                        text-decoration: none;
+                        color: inherit;
+                    }
+                    
+                    .lista-attività h3 {
+                        font-size: 24px;
+                        margin-bottom: 20px;
+                        font-family: Arial, Helvetica, sans-serif;
+                        padding-left: 20px; /* spazio interno tra testo e linea */
+                        border-left: 3px solid white; /* linea bianca a sinistra */
+                    }
+                    
+                    .lista-attività {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr; /* 2 colonne */
+                        gap: 50px 50px; /* spazio verticale e orizzontale */
+                        margin-top: 120px; /* spazio tra descrizione e attività */
+                        margin-left: 20%;
+                    }
+
+
+
+                    footer {
+                        background-color: #533759;
+                        color: white;
+                        padding: 40px;
+                        font-family: Arial, Helvetica, sans-serif;
+                        
+                        display: flex;
+                        justify-content: space-evenly; /* distribuisce lo spazio in modo uniforme */
+                        align-items: center;
+                        gap: 500px;
+                        
+                    }
+
+                    footer a{
+                        text-decoration: none;
+                        color: inherit;
+                       
+                    }
+
+                    /*PAGINA PARCHI*/
+
+
+                    .img-sfondo-parchi-1 {
+                        background-image: url(../img/immagine-parchi.jpg);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        min-height: 100vh; /* altezza minima = 100% altezza viewport */
+                        position: relative; /* importantissimo per gestire layer sovrapposti */
+                    }
+                        
+                        .img-sfondo-parchi-1::before {
+                            content: "";
+                            position: absolute;     /* patina per inscurire*/
+                            top: 0; left: 0;
+                            width: 100%; height: 100vh;
+                            background-color: rgba(0,0,0,0.4);
+                            z-index: 1;
+                        }
+
+                        .scritte {
+                            background-color: #533759;
+                            color: white;
+                            padding: 80px 40px;
+                            font-family: Arial, Helvetica, sans-serif;
+                            font-size: 20px;
+                            line-height: 1.6;
+                            text-align: left;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
+                        }
+                        
+                        .scritte h3 {
+                            font-family: Arial, Helvetica, sans-serif;
+                            font-size: 18px;
+                            line-height: 1.8; /* aumento dell'interlinea */
+                            margin-bottom: 20px; /* spazio tra i due h3 */
+                        }
+
+                        .freccia{
+                            padding-top: 50px;
+                        }
+
+                        .sezione-immagini {
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                            gap: 40px;
+                            padding: 60px 20px;
+                            background-color: white;
+                        }
+
+                        .sezione-immagini a{
+                            text-decoration: none;
+                            color: inherit;
+                        }
+                        
+
+                        .sezione-immagini .box-immagine p {
+                            font-size: 25px !important;
+                        }
+
+                        .box-immagine {
+                            
+                                
+                                background-color: #f0f0f0;
+                                overflow: hidden;
+                                text-align: left;
+                                transition: transform 0.3s;
+                        }
+
+                        .box-immagine img {
+                            
+                            width: 100%;
+                            
+                            object-fit: cover;
+                            display: block;
+                        }
+
+                        a .box-immagine p {
+                            font-family: Arial, sans-serif;
+                            font-size:300px !important;
+                            padding: 20px 10px;
+                            background-color: white;
+                            color: #333;
+                            
+                        }
+
+                        .box-imagine:hover {
+                            transform: scale(1.03);
+                        }
+                      
+
+                        .separatore {
+                            width: 100%;
+                            height: 60px; /* o quanto vuoi alto */
+                            background-color: #533759; /* o altro colore */
+                            margin: 50px 0; /* spazio sopra e sotto */
+                          }
+
+
+
+                        .all-parchi{
+                            
+                           
+                            padding: 40px 20px;
+                            display: grid;
+                            grid-template-columns: repeat(2, 1fr); /* 2 colonne */
+                            gap: 60px; /* spazio tra le immagini */
+                            justify-items: center; /* centra le immagini nella cella */
+                            align-items: center; /* centra verticalmente */
+                            text-align: center;
+                            padding-top: 100px;
+                            
+                            
+                        
+                        }
+                        .all-parchi p{
+                            padding: 30px;
+                            color: #533759;
+                        }
+                        .all-parchi img{
+                            width: 100%;
+                            max-width: 300px;
+                            }
+                        
+                            .all-parchi a{
+                                text-decoration: none;
+                            }
+
+
+                            
+
+
+
+                           /*PARCO SILA*/
+
+
+                            .img-sfondo-parchi-sila {
+                                background-image:url(../Sila/parco-nazionale-della-sila-1.jpeg) ;
+                                background-size: cover;
+                                background-repeat: no-repeat;
+                                min-height: 100vh; /* altezza minima = 100% altezza viewport */
+                                position: relative; /* importantissimo per gestire layer sovrapposti */
+                            }
+                                
+                                .img-sfondo-parchi-sila::before {
+                                    content: "";
+                                    position: absolute;     /* patina per inscurire*/
+                                    top: 0; left: 0;
+                                    width: 100%; height: 100vh;
+                                    background-color: rgba(0,0,0,0.4);
+                                    z-index: 1;
+                                }
+
+
+
+                               
+                                .immagini-parchi img {
+                                    width: 100%;
+                                }
+
+                                .immagini-parchi p{
+                                    font-family: Arial, Helvetica, sans-serif;
+                                    font-size: 20px;
+                                    line-height: 1.6;
+                                    text-align: left;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    flex-direction: column;
+                                    padding: 50px 100px;
+                                    
+                                    color: #533759;
+                                }
+
+
+                                .immagini-parchi h2{
+                                    font-family: Arial, Helvetica, sans-serif;
+                                    font-size: 40px;
+                                    line-height: 1.6;
+                                    text-align: center;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    padding-top: 20px;
+                                    color: #533759;
+                                    
+                            
+                                }
+
+                                .immagini-parchi h3{
+                                    font-family: Arial, Helvetica, sans-serif;
+                                    font-size: 25px;
+                                    line-height: 1.6;
+                                    text-align: left;
+                                    display: flex;
+                                    justify-content: left;
+                                    align-items: center;
+                                    padding-top: 80px;
+                                    color: #533759;
+                                    padding-left: 150px;
+                                    
+                                    
+                            
+                                }
+
+                                
+                        
+
+                                /*PARCO ARCIPELAGO TOSCANO*/
+
+
+                                .img-sfondo-parchi-toscano {
+                                    background-image: url(../Arcipelago-Toscano/costa-argento-scaled.jpg);
+                                    background-size: cover;
+                                    background-repeat: no-repeat;
+                                    min-height: 100vh; /* altezza minima = 100% altezza viewport */
+                                    position: relative; /* importantissimo per gestire layer sovrapposti */
+                                }
+                                    
+                                    .img-sfondo-parchi-toscano::before {
+                                        content: "";
+                                        position: absolute;     /* patina per inscurire*/
+                                        top: 0; left: 0;
+                                        width: 100%; height: 100vh;
+                                        background-color: rgba(0,0,0,0.4);
+                                        z-index: 1;
+                                    }
+    
+    
+    
+                                   /*PARCO VESUVIO*/
+
+
+
+
+
+                                    .img-sfondo-parchi-vesuvio {
+                                        background-image:url(../Vesuvio/vesuvio.jpg) ;
+                                        background-size: cover;
+                                        background-repeat: no-repeat;
+                                        min-height: 100vh; /* altezza minima = 100% altezza viewport */
+                                        position: relative; /* importantissimo per gestire layer sovrapposti */
+                                    }
+                                        
+                                        .img-sfondo-parchi-vesuvio::before {
+                                            content: "";
+                                            position: absolute;     /* patina per inscurire*/
+                                            top: 0; left: 0;
+                                            width: 100%; height: 100vh;
+                                            background-color: rgba(0,0,0,0.4);
+                                            z-index: 1;
+                                        }
+
+
+
+
+                                        /*PARCO ETNA*/
+
+                                        .img-sfondo-parchi-etna {
+                                            background-image:url(../etna/shutterstock_775379560.jpg) ;
+                                            background-size: cover;
+                                            background-repeat: no-repeat;
+                                            min-height: 100vh; /* altezza minima = 100% altezza viewport */
+                                            position: relative; /* importantissimo per gestire layer sovrapposti */
+                                        }
+                                            
+                                            .img-sfondo-parchi-.img-sfondo-parchi-etna {
+                                                content: "";
+                                                position: absolute;     /* patina per inscurire*/
+                                                top: 0; left: 0;
+                                                width: 100%; height: 100vh;
+                                                background-color: rgba(0,0,0,0.4);
+                                                z-index: 1;
+                                            }
+
+
+        
+        
+        
+                                            .img-sfondo-parchi-2 {
+                                                background-image: url(../METTI.jpg) ;
+                                                background-size: cover;
+                                                background-repeat: no-repeat;
+                                                min-height: 100vh; /* altezza minima = 100% altezza viewport */
+                                                position: relative; /* importantissimo per gestire layer sovrapposti */
+                                            }
+                                                
+                                                .img-sfondo-parchi-2::before {
+                                                    content: "";
+                                                    position: absolute;     /* patina per inscurire*/
+                                                    top: 0; left: 0;
+                                                    width: 100%; height: 100vh;
+                                                    background-color: rgba(0,0,0,0.4);
+                                                    z-index: 1;
+                                                }
+
+
+
+
+                                            /* ESPERIENZA*/
+
+
+                                            .scritte-esp {
+                                                text-align: left;
+                                                font-size: 18px ;
+                                                line-height: 150%;
+                                                
+                                            }
+
+                                            ul{
+                                                font-family: Arial, Helvetica, sans-serif;
+                                                color: inherit;
+                                                text-decoration: none;
+                                                color: #533759;
+                                            }
+
+
+
+
+                                            /*RESPONSIVE*/
+
+
+                                            @media (max-width: 768px) {
+
+                                                header {
+                                                    header {
+                                                        flex-direction: column;
+                                                        align-items: flex-start;
+                                                        padding: 20px;
+                                                        gap: 10px;
+                                                        
+                                                      }
+                                                }
+
+                                                .home{
+                                                    font-size: 20px;
+                                                }
+                                              
+                                                .sopra {
+                                                  position: relative;
+                                                  padding: 20px;
+                                                  text-align: center;
+                                                  z-index: 2;
+                                                }
+                                              
+                                                .sopra h1.titolo,
+                                                .titolo {
+                                                  font-size: 30px;
+                                                  text-align: center;
+                                                }
+                                              
+                                                .sopra h3 {
+                                                  font-size: 18px;
+                                                  text-align: center;
+                                                }
+                                              
+                                                .parchi,
+                                                .all-parchi {
+                                                  grid-template-columns: 1fr; /* una colonna */
+                                                  padding: 20px;
+                                                }
+                                              
+                                                .lista-attività {
+                                                  grid-template-columns: 1fr; /* una colonna */
+                                                  margin-left: 0;
+                                                  padding: 0 20px;
+                                                }
+                                              
+                                                .contenuto-esperienze h1,
+                                                .contenuto-esperienze .descrizione {
+                                                  padding-right: 0;
+                                                  font-size: 22px;
+                                                  text-align: center;
+                                                }
+                                              
+                                                .immagini-parchi p {
+                                                  padding: 20px;
+                                                  font-size: 18px;
+                                                }
+                                              
+                                                .immagini-parchi h3 {
+                                                  padding-left: 20px;
+                                                  font-size: 20px;
+                                                  padding-top: 30px;
+                                                }
+                                              
+                                                footer {
+                                                  flex-direction: column;
+                                                  gap: 30px;
+                                                  text-align: center;
+                                                }
+                                              
+                                                .sezione-immagini {
+                                                  flex-direction: column;
+                                                  gap: 20px;
+                                                }
+                                              
+                                                .box-immagine {
+                                                  width: 100%;
+                                                }
+                                              
+                                                .img-sfondo-1,
+                                                .img-sfondo-2,
+                                                .img-sfondo-parchi-1,
+                                                .img-sfondo-parchi-vesuvio,
+                                                .img-sfondo-parchi-etna,
+                                                .img-sfondo-parchi-sila,
+                                                .img-sfondo-parchi-toscano {
+                                                  background-position: center;
+                                                }
+                                              
+                                              }
+
+
+                                            
