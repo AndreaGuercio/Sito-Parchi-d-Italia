@@ -621,6 +621,14 @@ line-height: 250%;
                                                 color: #533759;
                                             }
 
+                                                .scritte {
+                                                max-width: 800px; /* Sostituisci questo valore con la larghezza desiderata */
+                                                      margin: 0 auto; /* Centra il blocco di testo */
+                                                        }
+                                            .immagini-parchi p {
+                                             max-width: 800px; /* Sostituisci questo valore con la larghezza desiderata */
+                                             margin: 0 auto;
+
 
 
 
