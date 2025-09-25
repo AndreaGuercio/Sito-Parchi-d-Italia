@@ -19,7 +19,40 @@ position: relative;
 }
 
 
+/* Stili Comuni per tutti i Pulsanti */
+.btn {
+    display: inline-block; /* Permette di impostare padding/margini e li mantiene affiancati */
+    padding: 15px 30px;    /* Spaziatura interna per ingrandire il pulsante */
+    text-decoration: none; /* Rimuove la sottolineatura tipica dei link */
+    font-weight: bold;     /* Testo in grassetto */
+    font-size: 16px;
+    border-radius: 5px;    /* Angoli leggermente arrotondati */
+    margin-right: 20px;    /* Spazio tra i due pulsanti */
+    transition: background-color 0.3s; /* Animazione al passaggio del mouse */
+}
 
+/* Stile per il pulsante "Parchi" (Sfondo Bianco) */
+.btn-parchi {
+    background-color: #ffffff;
+    color: #333333; /* Colore del testo scuro */
+    border: 1px solid #ffffff; /* Bordo leggero */
+}
+
+/* Stile per il pulsante "Attività ed esperienze" (Sfondo Viola/Scuro) */
+.btn-attivita {
+    background-color: #7d4495; /* Sostituisci con il viola esatto del tuo design */
+    color: #ffffff; /* Testo bianco */
+    border: 1px solid #7d4495; /* Bordo dello stesso colore dello sfondo */
+}
+
+/* Effetto al passaggio del mouse (Opzionale ma consigliato) */
+.btn-parchi:hover {
+    background-color: #f0f0f0;
+}
+
+.btn-attivita:hover {
+    background-color: #633779; /* Una tonalità leggermente più scura */
+}
 
 
 .img-sfondo-1 > * {
